@@ -4,8 +4,10 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Greeting
+      - name: Authorising User 👨🏻‍💻
         run: echo "Hello World"
-      - name: Auth User
+      - name: Auth User 🖥️
         run: echo "Authorising User"
+      - name: Verifying OTP
+        run: echo "Verifying your OTP"
     
