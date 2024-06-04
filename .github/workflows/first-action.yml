@@ -10,4 +10,9 @@ jobs:
         run: echo "Authorising User"
       - name: Verifying OTP
         run: echo "Verifying your OTP"
+      - name: multiple Jobs
+        run: |
+               echo "First output"
+               echo "Second output"
+            
     
